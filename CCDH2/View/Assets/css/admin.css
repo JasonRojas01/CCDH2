@@ -1,0 +1,79 @@
+/* General Styles */
+body.light-mode {
+    background-color: #8e9092;
+    color: #212529;
+}
+
+body.dark-mode {
+    background-color: #212529;
+    color: #f8f9fa;
+}
+
+/* Sidebar */
+.sidebar {
+    height: 100vh;
+}
+
+body.light-mode .sidebar {
+    background-color: #ffffff;
+    border-right: 1px solid #dee2e6;
+    color: #495057;
+}
+
+body.dark-mode .sidebar {
+    background-color: #212529;
+    color: #adb5bd;
+}
+
+.sidebar .nav-link {
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s ease;
+}
+
+/* Light Mode Sidebar Links */
+body.light-mode .nav-link {
+    color: #495057;
+}
+
+body.light-mode .nav-link:hover, 
+body.light-mode .nav-link.active {
+    color: #ffffff;
+    background-color: #0d6efd; 
+    border-radius: 5px;
+    transform: translateX(5px); 
+}
+
+/* Dark Mode Sidebar Links */
+body.dark-mode .nav-link {
+    color: #adb5bd;
+}
+
+body.dark-mode .nav-link:hover, 
+body.dark-mode .nav-link.active {
+    color: #ffffff;
+    background-color: #343a40;
+    border-radius: 5px;
+    transform: translateX(5px); /* Desplazamiento leve al pasar el mouse */
+}
+
+/* Main Content */
+.main {
+    padding: 20px;
+}
+
+/* Buttons */
+.btn-outline-secondary {
+    border-radius: 5px;
+}
+
+/* Light Mode Button */
+body.light-mode .btn-outline-secondary {
+    color: #212529;
+    border-color: #212529;
+}
+
+/* Dark Mode Button */
+body.dark-mode .btn-outline-secondary {
+    color: #ffffff;
+    border-color: #ffffff;
+}

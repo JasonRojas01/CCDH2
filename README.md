@@ -1,2 +1,1 @@
-# CCDH2
-Sistema para la CCDH 
+# G2_SC502_KN
